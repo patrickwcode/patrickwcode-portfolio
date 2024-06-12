@@ -28,5 +28,5 @@ export default function Home() {
         style={{ backgroundImage: `url(${HeroImage})` }}
       ></div>
     </div>
-  );
+  );cd
 }
