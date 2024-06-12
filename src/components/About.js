@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="w-full h-full lg:h-screen py-[18vh] bg-[rgb(209,220,223)]"
+      className="w-full h-full py-[18vh] bg-[rgb(209,220,223)]"
     >
       <h1 className="title-font sm:text-4xl text-3xl font-medium text-center">
         Hello, Earthling.
