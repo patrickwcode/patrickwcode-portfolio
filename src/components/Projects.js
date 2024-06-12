@@ -11,8 +11,8 @@ export default function Projects() {
       >
         <h1 className="text-center text-4xl col-span-2">Projects</h1>
         {/* Vimeo Demo Reel - Intouch Stages */}
-        <div id="react-demo-reel" className="sm:ml-4">
-          <div className="iframe-container overflow-hidden relative pt-[57%]">
+        <div id="react-demo-reel" className="sm:ml-4 bg-white/60 rounded-3xl p-6">
+          <div className="iframe-container overflow-hidden relative pt-[57%] pb-[-50%]">
             <iframe
               className="absolute top-0 right-0 bottom-0 left-0 w-full h-full"
               src="https://player.vimeo.com/video/956921520?badge=0&amp"
@@ -26,7 +26,7 @@ export default function Projects() {
             React - InTouch Demo Reel
           </div>
         </div>
-        <div id="achievements-container" className="sm:mr-4">
+        <div id="achievements-container" className="sm:mr-4 bg-white/60 rounded-3xl p-6">
           <div
             id="live-icon"
             className="absolute ml-2 sm:ml-4 mt-4 inline-flex justify-center items-center bg-red-500 rounded-xl text-white w-20 border-2 border-red-300"
@@ -78,8 +78,8 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        {/* Vimeo Demo Reel - Intouch Stages */}
-        <div id="graphics-demo-reel" className="sm:ml-4">
+        {/* Vimeo Demo Reel - Motion Graphics */}
+        <div id="graphics-demo-reel" className="sm:ml-4 bg-white/60 rounded-3xl p-6">
           <div className="iframe-container overflow-hidden relative pt-[57%]">
             <iframe
               className="absolute top-0 right-0 bottom-0 left-0 w-full h-full"
