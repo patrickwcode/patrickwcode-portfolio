@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Nav Links */
+ul li a.active {
+  color: #00DDFF;
+  font-weight: 600;
+}
