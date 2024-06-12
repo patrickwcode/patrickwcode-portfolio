@@ -34,7 +34,7 @@ export default function Navbar() {
         <Bars3Icon
           ref={menuRef}
           id="barsIcon"
-          className="w-10 h-20 container mx-auto sm:hidden my-auto w-1/4 active:bg-red-400"
+          className="w-10 h-20 container mx-auto sm:hidden my-auto active:bg-red-400"
           onClick={toggleIsMenuOpen}
         />
       </div>
