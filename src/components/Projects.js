@@ -10,22 +10,20 @@ export default function Projects() {
         className="w-screen h-full py-[18vh] bg-[rgb(209,220,223)] content-center flex flex-col sm:grid sm:grid-cols-2 gap-8"
       >
         <h1 className="text-center text-4xl col-span-2">Projects</h1>
-        <div id="demo-reel-container" className="sm:ml-4">
-          {/* Vimeo Demo Reel - Intouch Stages */}
+        {/* Vimeo Demo Reel - Intouch Stages */}
+        <div id="react-demo-reel" className="sm:ml-4">
           <div className="iframe-container overflow-hidden relative pt-[57%]">
             <iframe
               className="absolute top-0 right-0 bottom-0 left-0 w-full h-full"
-              src="https://player.vimeo.com/video/956919270?badge=0&amp"
+              src="https://player.vimeo.com/video/956921520?badge=0&amp"
               frameborder="0"
               allow="autoplay; encrypted-media"
               allowfullscreen
-              width="100%"
-              height="100%"
               title="2024 Demo Reel - Reactjs InTouch Stages"
             />
           </div>
           <div id="achievements-header" className="text-2xl text-center">
-            React InTouch Demo Reel
+            React - InTouch Demo Reel
           </div>
         </div>
         <div id="achievements-container" className="sm:mr-4">
@@ -80,18 +78,18 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div
-          id="demo-reel-motion-container"
-          className="sm:col-span-2 sm:flex sm:flex-col sm:justify-center sm:items-center"
-        >
-          {/* Vimeo Demo Reel - Motion Graphics */}
-          <iframe
-            src="https://www.youtube.com/embed/E7wJTI-1dvQ"
-            frameborder="0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen
-            title="video"
-          />
+        {/* Vimeo Demo Reel - Intouch Stages */}
+        <div id="graphics-demo-reel" className="sm:ml-4">
+          <div className="iframe-container overflow-hidden relative pt-[57%]">
+            <iframe
+              className="absolute top-0 right-0 bottom-0 left-0 w-full h-full"
+              src="https://player.vimeo.com/video/956919270?badge=0&amp"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+              title="2024 Demo Reel - Motion Graphics"
+            />
+          </div>
           <div id="achievements-header" className="text-2xl text-center">
             Motion Graphics Demo Reel
           </div>
