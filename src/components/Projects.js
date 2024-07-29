@@ -1,17 +1,32 @@
 import React from "react";
 import AchievementsPreview from "../media/steam-achievements-preview.png";
+import DreamGaragePreview from "../media/dream-garage-preview.PNG";
 import GitHubIcon from "../media/github-mark-white.svg";
 
 export default function Projects() {
   return (
-    <div>
+    <div className="w-screen bg-[rgb(209,220,223)] flex justify-center">
       <div
         id="main-container"
-        className="w-screen h-full py-[18vh] bg-[rgb(209,220,223)] content-center flex flex-col sm:grid sm:grid-cols-2 gap-8"
+        className="py-[18vh] sm:grid sm:grid-cols-2 gap-4"
       >
         <h1 className="text-center text-4xl col-span-2">Projects</h1>
-        {/* Vimeo Demo Reel - Intouch Stages */}
-        <div id="react-demo-reel" className="sm:ml-4 bg-white/60 rounded-3xl p-6">
+        <div id="dream-garage-prototype" className="sm:ml-4 sm:mt-0 bg-white/60 rounded-3xl p-6">
+          <div id="achievements-img">
+            <a href="https://www.figma.com/proto/5ruKeN0WUVzEqRfCEt0qc8/Dream-Garage---Prototype?node-id=57799-479&t=vEUcSZcECXqNKqyn-1" target="_blank" rel="noopener noreferrer">
+              <img
+                alt="Achievements Preview"
+                id="achievements-img"
+                className="w-full aspect-[16/9] object-cover"
+                src={DreamGaragePreview}
+              ></img>
+            </a>
+          </div>
+          <div id="achievements-header" className="text-2xl text-center">
+            Dream Garage - Figma Prototype
+          </div>
+        </div>
+        <div id="react-demo-reel" className="sm:mr-4 mt-4 sm:mt-0 bg-white/60 rounded-3xl p-6">
           <div className="iframe-container overflow-hidden relative pt-[57%] pb-[-50%]">
             <iframe
               className="absolute top-0 right-0 bottom-0 left-0 w-full h-full"
@@ -26,7 +41,7 @@ export default function Projects() {
             React - InTouch Demo Reel
           </div>
         </div>
-        <div id="achievements-container" className="sm:mr-4 bg-white/60 rounded-3xl p-6">
+        <div id="steam-achievements-project" className="sm:ml-4 mt-4 sm:mt-0 bg-white/60 rounded-3xl p-6">
           <div
             id="live-icon"
             className="absolute ml-2 sm:ml-4 mt-4 inline-flex justify-center items-center bg-red-500 rounded-xl text-white w-20 border-2 border-red-300"
@@ -35,11 +50,11 @@ export default function Projects() {
             <div className="text-2xl">LIVE</div>
           </div>
           <div id="achievements-img">
-            <a href="https://achievements.patrickwcode.com/">
+            <a href="https://achievements.patrickwcode.com/" target="_blank" rel="noopener noreferrer">
               <img
                 alt="Achievements Preview"
                 id="achievements-img"
-                className="sm:mt-0 w-full aspect-[16/9] object-cover"
+                className="w-full aspect-[16/9] object-cover"
                 src={AchievementsPreview}
               ></img>
             </a>
@@ -60,7 +75,7 @@ export default function Projects() {
                   <img alt="GitHub Icon" className="" src={GitHubIcon}></img>
                 </div>
                 <div id="github-react">
-                  <a href="https://github.com/patrickwcode/SteamAchievementsReactJS">
+                  <a href="https://github.com/patrickwcode/SteamAchievementsReactJS" target="_blank" rel="noopener noreferrer">
                     SteamAchievementsReactJS
                   </a>
                 </div>
@@ -70,7 +85,7 @@ export default function Projects() {
                   <img alt="GitHub Icon" className="" src={GitHubIcon}></img>
                 </div>
                 <div id="github-node">
-                  <a href="https://github.com/patrickwcode/steam-achievements-node">
+                  <a href="https://github.com/patrickwcode/steam-achievements-node" target="_blank" rel="noopener noreferrer">
                     steam-achievements-node
                   </a>
                 </div>
@@ -78,8 +93,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        {/* Vimeo Demo Reel - Motion Graphics */}
-        <div id="graphics-demo-reel" className="sm:ml-4 bg-white/60 rounded-3xl p-6">
+        {/* <div id="graphics-demo-reel" className="sm:mr-4 mt-4 sm:mt-0 bg-white/60 rounded-3xl p-6">
           <div className="iframe-container overflow-hidden relative pt-[57%]">
             <iframe
               className="absolute top-0 right-0 bottom-0 left-0 w-full h-full"
@@ -93,7 +107,7 @@ export default function Projects() {
           <div id="achievements-header" className="text-2xl text-center">
             Motion Graphics Demo Reel
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

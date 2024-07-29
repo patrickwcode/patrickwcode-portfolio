@@ -7,7 +7,7 @@ import { WrenchIcon } from "@heroicons/react/20/solid";
 export default function Home() {
   return (
     <div className="flex items-center justify-center">
-      <h2 className="absolute text-3xl italic font-thin text-white top-24 sm:top-40 bg-gray-800/70 p-1">
+      <h2 className="absolute text-3xl italic font-regular text-white top-24 sm:top-40 bg-gray-800/100 p-1">
         Designer & Developer
       </h2>
       <button
