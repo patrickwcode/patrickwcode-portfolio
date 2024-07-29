@@ -93,7 +93,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        {/* <div id="graphics-demo-reel" className="sm:mr-4 mt-4 sm:mt-0 bg-white/60 rounded-3xl p-6">
+        <div id="graphics-demo-reel" className="sm:mr-4 mt-4 sm:mt-0 bg-white/60 rounded-3xl p-6">
           <div className="iframe-container overflow-hidden relative pt-[57%]">
             <iframe
               className="absolute top-0 right-0 bottom-0 left-0 w-full h-full"
@@ -107,7 +107,7 @@ export default function Projects() {
           <div id="achievements-header" className="text-2xl text-center">
             Motion Graphics Demo Reel
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
