@@ -26,7 +26,7 @@ export default function Projects() {
             Recorriendo Paris Open
           </div>
         </div>
-        <div id="dream-garage-prototype" className="sm:ml-4 sm:mt-0 bg-white/60 rounded-3xl p-6">
+        <div id="dream-garage-prototype" className="sm:ml-4 mt-4 sm:mt-0 bg-white/60 rounded-3xl p-6">
           <div id="achievements-img">
             <a href="https://www.figma.com/proto/5ruKeN0WUVzEqRfCEt0qc8/Dream-Garage---Prototype?node-id=57799-479&t=vEUcSZcECXqNKqyn-1" target="_blank" rel="noopener noreferrer">
               <img
