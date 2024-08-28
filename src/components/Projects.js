@@ -11,6 +11,21 @@ export default function Projects() {
         className="py-[18vh] sm:grid sm:grid-cols-2 gap-4"
       >
         <h1 className="text-center text-4xl col-span-2">Projects</h1>
+        <div id="recorriendo-paris" className="sm:mr-4 mt-4 sm:mt-0 bg-white/60 rounded-3xl p-6">
+          <div className="iframe-container overflow-hidden relative pt-[57%]">
+            <iframe
+              className="absolute top-0 right-0 bottom-0 left-0 w-full h-full"
+              src="https://player.vimeo.com/video/1003622318"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+              title="Recorriendo Paris Open"
+            />
+          </div>
+          <div id="achievements-header" className="text-2xl text-center">
+            Recorriendo Paris Open
+          </div>
+        </div>
         <div id="dream-garage-prototype" className="sm:ml-4 sm:mt-0 bg-white/60 rounded-3xl p-6">
           <div id="achievements-img">
             <a href="https://www.figma.com/proto/5ruKeN0WUVzEqRfCEt0qc8/Dream-Garage---Prototype?node-id=57799-479&t=vEUcSZcECXqNKqyn-1" target="_blank" rel="noopener noreferrer">
