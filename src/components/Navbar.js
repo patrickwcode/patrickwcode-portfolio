@@ -73,6 +73,16 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li className="inline">
+            <NavLink id="navlink"
+              className="mr-4"
+              to="https://blog.patrickwcode.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={toggleIsMenuOpen}>
+              Blog
+            </NavLink>
+          </li>
+          <li className="inline">
             <NavLink id="navlink" to="/contact" onClick={toggleIsMenuOpen}>
               Contact
             </NavLink>
@@ -112,6 +122,18 @@ export default function Navbar() {
                 onClick={toggleIsMenuOpen}
               >
                 Projects
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                id="navlink"
+                className="block py-2"
+                to="https://blog.patrickwcode.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={toggleIsMenuOpen}
+              >
+                Blog
               </NavLink>
             </li>
             <li>
